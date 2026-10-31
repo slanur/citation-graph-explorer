@@ -1,0 +1,13 @@
+# Derleme çıktıları
+*.class
+out/
+bin/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
