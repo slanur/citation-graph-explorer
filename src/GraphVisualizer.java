@@ -235,6 +235,9 @@ public class GraphVisualizer extends JPanel {
             height = 600;
         }
         
+        // Önceki ağdan kalan düğümlerin konumlarını temizler
+        nodePositions.clear();
+
         int margin = 80;
         List<String> nodes = new ArrayList<>(nodesToShow);
         Collections.sort(nodes);

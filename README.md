@@ -127,7 +127,6 @@ Kendi verinizi kullanmak için şu biçimde bir JSON dizisi yükleyebilirsiniz:
 
 ## ⚠️ Bilinen Kısıtlar
 
-- H-Index ikinci kez hesaplandığında önceki ağın düğümleri ekranda kalır.
 - Harf etiketleri 26 düğümden sonra `Z` harfinin ötesindeki karakterlere geçer.
 - JSON ayrıştırıcısı kaçışlı tırnakları (`\"`) desteklemez. Örnek veri setinde bu durum yoktur.
 - Betweenness Centrality tüm en kısa yolları tek tek listelediği için kalabalık ağlarda yavaşlayabilir.
